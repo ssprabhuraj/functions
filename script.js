@@ -277,7 +277,7 @@ const returnAllPalindromesInAArray = function (arr) {
 returnAllPalindromesInAArray(["racecar", "hello", "madam", "world", "level", "noon", "openai", "rotor", "javascript"]);
 
 //Arroe Function
-const returnAllPalindromesInAArrayArow =  (arr) => {
+const returnAllPalindromesInAArrayArow = (arr) => {
   const isPalindrome = (str) => {
     str = str.toLowerCase();
     return str === str.split('').reverse().join('');
@@ -296,7 +296,7 @@ returnAllPalindromesInAArray(["racecar", "hello", "madam", "world", "level", "no
 
 //IIFE
 (function () {
-  let uniqueArray =  [...new Set(arr)];
+  let uniqueArray = [...new Set(arr)];
   console.log(uniqueArray); // Output: [1, 2, 3, 4, 5, 6, 7]
 
 })([1, 2, 3, 4, 3, 2, 1, 5, 6, 7, 5]);
