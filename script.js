@@ -17,7 +17,7 @@
 const printOddNumbers = function (arr) {
   arr.forEach(function (num) {
     if (num % 2 !== 0) {
-      // console.log(num);
+      console.log(num);
     }
   });
 };
@@ -30,7 +30,7 @@ printOddNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 const printOddNumbersArrow = arr => {
   arr.forEach(num => {
     if (num % 2 !== 0) {
-      // console.log(num);
+      console.log(num);
     }
   });
 };
@@ -55,7 +55,7 @@ printOddNumbersArrow([1, 2, 3, 4, 5, 6, 7, 8, 9]);
     result.push(titleCasedWords);
   })
 
-  // console.log(result.join(' '));
+  console.log(result.join(' '));
 })("hello woRld ,javaScript,react js,php ")
 
 
@@ -75,7 +75,7 @@ const convertStringToTitleCase = function (str) {
     result.push(titleCasedWords);
   })
 
-  // console.log(result.join(' '));
+  console.log(result.join(' '));
 };
 
 convertStringToTitleCase("hello woRld ,javaScript,react js,php ");
@@ -95,7 +95,7 @@ const convertStringToTitleCaseArrow = (str) => {
     result.push(titleCasedWords);
   })
 
-  // console.log(result.join(' '));
+  console.log(result.join(' '));
 };
 
 convertStringToTitleCaseArrow("hello woRld ,javaScript,react js,php ");
